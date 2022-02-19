@@ -1,2 +1,2 @@
-# THM_Notes
-Notes on TryHackMe Rooms 
+# THM Notes
+Notes on TryHackMe Rooms
