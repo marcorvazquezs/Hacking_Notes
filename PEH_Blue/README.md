@@ -43,4 +43,4 @@
     ![Exploit Results](2022-03-03-22-26-54.png)
 
 - Exploit was successful!
-  - Popped a `meterpreter` shell and got a hash dump of the users on the 
+  - Popped a `meterpreter` shell and got a hash dump of the users on the box. 
