@@ -1,2 +1,2 @@
 # THM Notes
-Notes on TryHackMe Rooms
+Notes on TryHackMe Rooms, PEH Boxes and misc hacking exercises. 
