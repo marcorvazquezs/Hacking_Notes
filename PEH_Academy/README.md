@@ -53,11 +53,11 @@
 - Grabbed the Registration number from `note.txt` and the cracked password to login. 
 - Once logged in was prompted to change password, so I went ahead and did that. 
 
-![Logged in](./screenshots/2022-03-03-23-20-58.png)
+  ![Logged in](./screenshots/2022-03-03-23-20-58.png)
 
 - Used a [`php-reverse-shell`](https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php) by uploading it to the site using the photo upload 
 
-![Uploaded File](./screenshots/2022-03-04-17-14-33.png)
+  ![Uploaded File](./screenshots/2022-03-04-17-14-33.png)
 
 - Set `netcat` to listen on the port the exploit uses 
 
