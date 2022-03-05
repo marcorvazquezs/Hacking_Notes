@@ -89,4 +89,4 @@
 
 - Found `flag.txt`
 
-  ![flag.txt](2022-03-04-18-12-52.png)
+  ![flag.txt](./screenshots/2022-03-04-18-12-52.png)
