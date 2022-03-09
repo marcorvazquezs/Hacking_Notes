@@ -31,7 +31,7 @@
 - Researching Jenkins exploits 
   - [pwn_jenkins](https://github.com/gquere/pwn_jenkins)
 
-- Didn't find much else 
+- Didn't find much else
 
 
 ## Exploitation
