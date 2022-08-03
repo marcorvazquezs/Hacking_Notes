@@ -1,10 +1,12 @@
-# Recon
+# Blue
+
+## Recon
 
 - Ran nmap against the box
 
 ![Nmap Results](screenshots/2022-08-01-18-32-29.png)
 
-# Gain Access 
+## Gain Access 
 
 - Start metasploit
 - Search for `ms17_010`
@@ -15,7 +17,7 @@
 
 ![Run exploit](screenshots/2022-08-01-18-42-38.png)
 
-# Escalate
+## Escalate
 
 - Search to `shell_to_meterpreter` to turn shell to a meterpreter shell 
 
@@ -31,7 +33,7 @@
 
 - Use `migrate PID` to migrate to a process running under `NT AUTHORITY\SYSTEM`
 
-# Cracking
+## Cracking
 - Use `hashdump` to dump all of the passwords on the machine
 
 ![Hashdump](screenshots/2022-08-01-19-06-02.png)
