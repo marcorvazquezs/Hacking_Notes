@@ -54,3 +54,7 @@
 - Start service again
 
 ![Start service again](screenshots/2022-08-03-20-35-53.png)
+
+- Once the service is started this should spawn another meterpreter session with the listener we created 
+
+![Reverse Shell Session](screenshots/2022-08-09-22-47-25.png)
