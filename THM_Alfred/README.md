@@ -1,0 +1,5 @@
+- Tokens 
+  - Windows uses the Primary Token of the process and not the impersonated token to determine what the process can or cannot do. 
+  - Migrate to a process with correct permissions (safest pick is services.exe)
+  - Use the `ps` command to find the PID of the services.exe process 
+  - Use the `migrate PID-OF-PROCESS` to change services
