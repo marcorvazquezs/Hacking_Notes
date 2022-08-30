@@ -38,9 +38,9 @@
     ![Payload download](screenshots/2022-08-29-17-54-30.png)
 - Gaining Meterpreter shell 
     ![Gained Meterpreter shell](screenshots/2022-08-29-17-55-40.png)
-- Executing malicious payload
+- Executing malicious payload  
     ![Executing payload](screenshots/2022-08-29-17-55-53.png)
-- Gaining additional system information
+- Gaining additional system information   
     ![Using sysinfo to gain information](screenshots/2022-08-29-17-56-29.png)
 - Uploading winPEAS.exe
     ![Uploading winPEAS.exe](screenshots/2022-08-29-18-03-12.png)
@@ -50,7 +50,7 @@
     ![Msfvenom payload creation](screenshots/2022-08-29-18-18-39.png)
 - Downloading `msfvenom` payload
     ![Payload download](screenshots/2022-08-29-18-22-58.png)
-- Setup listener
+- Setup listener  
     ![Listener setup](screenshots/2022-08-29-18-23-10.png)
-- Finding user and root flags
+- Finding user and root flags  
     ![Finding flags](screenshots/2022-08-29-18-24-31.png)
