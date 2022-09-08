@@ -14,8 +14,11 @@ Notes on TryHackMe Rooms, PEH Boxes and misc hacking exercises.
 - [Attacktive Directory](Attacktive_Directory/README.md)
 - [Alfred](THM_Alfred/README.md)
 - [Blue](THM_Blue/README.md)
+- [GameZone](THM_GameZone/README.md)
+- [HackPark](THM_HackPark/README.md)
 - [Kenobi](./THM_Kenobi/README.md)
 - [Mr. Robot](THM_MrRobot/README.md)
+- [Skynet](THM_Skynet/README.md)
 - [Steel Mountain](THM_SteelMountain/README.md)
 - [Vulnversity](THM_Vulnversity/README.md)
 
