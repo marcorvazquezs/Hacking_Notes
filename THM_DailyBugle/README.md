@@ -18,4 +18,9 @@
 
     ![User information](screenshots/2022-09-07-19-13-02.png)
 
-- Time to crack the hash
+- Time to crack the hash using john the ripper
+- Once we have the password, use this to login to the joomla portal.
+
+    ![Joomla portal](screenshots/2022-09-14-18-25-26.png)
+
+- Time to get a reverse shell from [here](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
