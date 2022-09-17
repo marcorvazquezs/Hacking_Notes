@@ -26,6 +26,10 @@
 
     ![SMBMAP](screenshots/2022-09-16-13-00-49.png)
 
+- SMB Vulnerability Scan resulted in finding target is vulnerable to `CVE-2017-0143`
+
+  ![SMB Vuln Results](screenshots/2022-09-17-12-16-52.png)
+
 ## Initial Access
 - Connected to the `nt4wrksv` share and found a `passwords.txt` file
 
@@ -36,4 +40,28 @@
     ![Encoded Passwords](screenshots/2022-09-16-14-03-08.png)
 
 - Decoded the passwords
-- 
+    ![Decoded Passwords](screenshots/2022-09-17-11-42-41.png)
+
+- Created a payload using msfvenom
+
+    ![Msfvenom payload](screenshots/2022-09-17-13-21-53.png)
+
+- Meterpreter listener
+
+    ![Listener](screenshots/2022-09-17-13-22-27.png)
+
+- Payload upload and call
+
+    ![Payload Upload](screenshots/2022-09-17-13-23-10.png)
+
+- Found the user flag
+
+    ![User flag](screenshots/2022-09-17-13-25-36.png)
+
+- Check privileges
+
+    ![Privileges](screenshots/2022-09-17-13-27-45.png)
+
+
+
+
