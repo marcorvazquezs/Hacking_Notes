@@ -6,7 +6,7 @@
   - User.txt
   - Root.txt
 
-- Scope allowances: 
+- Scope allowances:
   - All tools permitted but attempt manual exploitation first
   - Locate and note all vulnerabilities found
   - Submit the flags discovered to the dashboard
@@ -14,6 +14,7 @@
   - Find and report ALL vulnerabilities
 
 ## Reconaissance
+
 - Nmap Scan Results
   ![Nmap Results 1](screenshots/2022-09-16-12-52-45.png)
   ![Nmap Results 2](screenshots/2022-09-16-12-53-16.png)
@@ -31,6 +32,7 @@
   ![SMB Vuln Results](screenshots/2022-09-17-12-16-52.png)
 
 ## Initial Access
+
 - Connected to the `nt4wrksv` share and found a `passwords.txt` file
 
     ![SMB share](screenshots/2022-09-16-14-01-59.png)
