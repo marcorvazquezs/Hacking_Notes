@@ -42,7 +42,7 @@
     ![Encoded Passwords](screenshots/2022-09-16-14-03-08.png)
 
 - Decoded the passwords
-- 
+
     ![Decoded Passwords](screenshots/2022-09-17-11-42-41.png)
 
 - Created a payload using msfvenom
