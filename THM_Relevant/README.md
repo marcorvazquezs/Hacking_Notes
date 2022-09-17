@@ -62,6 +62,13 @@
 
     ![Privileges](screenshots/2022-09-17-13-27-45.png)
 
+- Using the [PrintSpoofer](https://github.com/dievus/printspoofer) exploit to gain privilege escalation
+- Uploaded the `PrintSpoofer.exe` and navigated to the share in `C:\inetpub\wwwroot\nt4wrksv` to run it using the `PrintSpoofer.exe -i -c cmd` command
 
+    ![PrintSpoofer.exe](screenshots/2022-09-17-16-34-35.png)
 
+    ![Root Shell](screenshots/2022-09-17-16-41-32.png)
 
+- Found root flag
+
+    ![Root Flag](screenshots/2022-09-17-16-43-51.png)
