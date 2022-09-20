@@ -22,3 +22,4 @@ Notes on TryHackMe Rooms, PEH Boxes and misc hacking exercises.
 - [Steel Mountain](THM_SteelMountain/README.md)
 - [Vulnversity](THM_Vulnversity/README.md)
 - [Relevant](THM_Relevant/README.md)
+- [Internal](THM_Internal/README.md)
