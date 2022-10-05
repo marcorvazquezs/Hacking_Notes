@@ -14,6 +14,7 @@ Notes on TryHackMe Rooms, PEH Boxes and misc hacking exercises.
 - [Attacktive Directory](Attacktive_Directory/README.md)
 - [Alfred](THM_Alfred/README.md)
 - [Blue](THM_Blue/README.md)
+- [Bounty Hacker](THM_BountyHacker/README.md)
 - [Daily Bugle](THM_DailyBugle/README.md)
 - [GameZone](THM_GameZone/README.md)
 - [HackPark](THM_HackPark/README.md)
