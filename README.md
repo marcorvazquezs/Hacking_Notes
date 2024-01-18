@@ -35,3 +35,4 @@ Notes on TryHackMe Rooms, PEH Boxes and misc hacking exercises.
 # HTB Write Ups
 
 - [Oopsie](<HTB_Oopsie/README.md>)
+- [Vaccine](<HTB_Vaccine/README.md>)
