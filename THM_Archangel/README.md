@@ -8,6 +8,6 @@
 ![Dirsearch](screenshots/2022-11-08-19-48-57.png)
 
 - Found a `support@mafialive.thm` email on the page
-- Add this to the host file and now we get 
+- Add this to the host file and now we get
 
-![](screenshots/2022-11-08-19-57-18.png)
+![Flag 1](screenshots/2022-11-08-19-57-18.png)

@@ -7,7 +7,7 @@
 ## Enumerating SAMBA shares
 
 - Use the `nmap` script engine to enumerate SMB shares
-```nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse x.x.x.x```
+```nmap -p 445 --script=linpas-enum-shares.nse,smb-enum-users.nse x.x.x.x```
 
 ![SMB Shares](screenshots/2022-08-02-20-23-49.png)
 

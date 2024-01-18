@@ -1,8 +1,9 @@
 # THM Notes
+
 Notes on TryHackMe Rooms, PEH Boxes and misc hacking exercises.
 
-
 # Practical Ethical Hacking Write Ups
+
 - [Academy](./PEH_Academy/README.md)
 - [Black Pearl](./PEH_BlackPearl/README.md)
 - [Blue](./PEH_Blue/README.md)
@@ -10,6 +11,7 @@ Notes on TryHackMe Rooms, PEH Boxes and misc hacking exercises.
 - [Dev](./PEH_Dev/README.md)
   
 # TryHackMe Room Write Ups
+
 - [Attacking Kerberos](Attacking_Kerberos/README.md)
 - [Attacktive Directory](Attacktive_Directory/README.md)
 - [Alfred](THM_Alfred/README.md)
@@ -29,3 +31,7 @@ Notes on TryHackMe Rooms, PEH Boxes and misc hacking exercises.
 - [Internal](THM_Internal/README.md)
 - [Retro](THM_Retro/README.md)
 - [Wonderland](THM_Wonderland/README.md)
+
+# HTB Write Ups
+
+- [Oopsie](<HTB_Oopsie/README.md>)
