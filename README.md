@@ -36,3 +36,5 @@ Notes on TryHackMe Rooms, PEH Boxes and misc hacking exercises.
 
 - [Oopsie](<HTB_Oopsie/README.md>)
 - [Vaccine](<HTB_Vaccine/README.md>)
+- [Monitored](<HTB_Monitored/README.md>)
+- [Unified](<HTB_Unified/README.md>)
