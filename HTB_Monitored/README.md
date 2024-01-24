@@ -54,6 +54,48 @@
 
     ![SQLmap](screenshots/2024-01-22-20-13-25.png)
 
+- Found an API key
+  
+    ![API Key](screenshots/2024-01-23-17-04-45.png)
+
 ***
 
 ## Privilege Escalation
+
+- Let's use the API key found to create an account for us
+
+    ![Creating an admin account](screenshots/2024-01-23-17-16-22.png)
+
+- Logged in as the account we created
+
+    ![MV account](screenshots/2024-01-23-17-17-58.png)
+
+- Edited one of the commands to run a reverse shell connection
+
+    ![Reverse Shell command](screenshots/2024-01-23-17-33-34.png)
+
+- Navigated to Monitoring > Services and ran the `acaard` check command
+- Got a shell connecting to the listener
+
+    ![Shell](screenshots/2024-01-23-17-34-28.png)
+
+- `user.txt` was waiting there!
+
+    ![user flag](screenshots/2024-01-23-18-35-41.png)
+
+- Got `linpeas.sh` onto the machine and ran it to find escalation paths
+
+    ![linpeas.sh results](screenshots/2024-01-23-17-54-24.png)
+
+- Removed the `npcd` service and created a new file that starts a shell
+
+    ![npcd hijack](screenshots/2024-01-23-18-28-50.png)
+
+- Started the listener and restarted the service using the `managed_services.sh`
+
+    ![npcd restart](screenshots/2024-01-23-18-29-48.png)
+    ![root shell](screenshots/2024-01-23-18-30-05.png)
+
+- Found root flag
+
+    ![Root flag](screenshots/2024-01-23-18-31-37.png)
