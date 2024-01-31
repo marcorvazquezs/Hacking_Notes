@@ -38,3 +38,6 @@ Notes on TryHackMe Rooms, PEH Boxes and misc hacking exercises.
 - [Vaccine](<HTB_Vaccine/README.md>)
 - [Monitored](<HTB_Monitored/README.md>)
 - [Unified](<HTB_Unified/README.md>)
+- [Keeper](<HTB_Keeper/README.md>)
+- [Cozy Hosting](<HTB_CozyHosting/README.md>)
+- [Analytics](<HTB_Analytics/README.md>)

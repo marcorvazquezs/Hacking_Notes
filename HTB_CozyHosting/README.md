@@ -1,4 +1,4 @@
-# TITLE HEADER
+# Cozy Hosting
 
 ***
 
@@ -11,6 +11,10 @@
 ***
 
 ## Initial Access
+
+- Reverse shell command in Burp Suite
+
+    ![Reverse Shell](screenshots/2024-01-30-15-22-35.png)
 
 ***
 
