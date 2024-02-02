@@ -42,3 +42,4 @@ Notes on TryHackMe Rooms, PEH Boxes and misc hacking exercises.
 - [Cozy Hosting](<HTB_CozyHosting/README.md>)
 - [Analytics](<HTB_Analytics/README.md>)
 - [Codify](<HTB_Codify/README.md>)
+- [Devvortex](<HTB_Devvortex/README.md>)
